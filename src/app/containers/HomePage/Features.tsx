@@ -5,6 +5,7 @@ import { Lead } from './components/Lead';
 import { SubTitle } from 'app/containers/HomePage/components/SubTitle';
 import { P } from './components/P';
 import { ReactComponent as CodeAnalysisIcon } from './assets/code-analysis.svg';
+import { MarkDownContent } from '../../components/MarkDownContent';
 
 export function Features() {
   return (
@@ -22,9 +23,13 @@ export function Features() {
           <Content>
             <SubTitle>Static Code Analysis</SubTitle>
             <P>
-              Focus on writing new features without worrying about formatting or
-              code quality. With the right editor setup, your code will
-              automatically be formatted and linted as you work.
+              <MarkDownContent
+                content={
+                  ' Nigger Dies on writing new features without worrying about formatting or\n' +
+                  '              code quality. With the right editor setup, your code will\n' +
+                  '              automatically be formatted and linted as you work.'
+                }
+              />
             </P>
           </Content>
         </Feature>
