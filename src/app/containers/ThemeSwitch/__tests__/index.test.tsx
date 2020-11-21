@@ -24,7 +24,7 @@ describe('<ThemeSwitch />', () => {
 
   it('should have 3 radio buttons', () => {
     const languageSwitch = renderThemeSwitch(store);
-    expect(languageSwitch.queryAllByRole('radio').length).toBe(3);
+    expect(languageSwitch.queryAllByRole('radio').length).toBe(2);
     languageSwitch.unmount();
   });
 
@@ -33,8 +33,6 @@ describe('<ThemeSwitch />', () => {
     const radioButtons = languageSwitch.queryAllByRole(
       'radio',
     ) as HTMLInputElement[];
-
-    expect(radioButtons[0].checked).toBe(true);
 
     fireEvent.click(radioButtons[1]);
 

@@ -3,13 +3,13 @@
 exports[`<App /> should render and match the snapshot 1`] = `
 <BrowserRouter>
   <Helmet
-    defaultTitle="React Boilerplate"
+    defaultTitle="Amit Kurud"
     defer={true}
     encodeSpecialCharacters={true}
-    titleTemplate="%s - React Boilerplate"
+    titleTemplate="%s - Amit Kurud"
   >
     <meta
-      content="A React Boilerplate application"
+      content="Amit Kurud's Blog"
       name="description"
     />
   </Helmet>

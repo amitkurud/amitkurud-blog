@@ -4,7 +4,7 @@ exports[`<Masthead /> should render and match the snapshot 1`] = `
 <Masthead__Wrapper>
   <Logos />
   <Title>
-    React Boilerplate meets CRA
+    Amit Kurud
   </Title>
   <Lead>
     Now you can use the
