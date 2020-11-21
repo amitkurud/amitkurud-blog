@@ -8,7 +8,12 @@ import { RepoItem } from './RepoItem';
 import { TextButton } from './components/TextButton';
 import { actions, reducer, sliceKey } from './slice';
 import { githubRepoFormSaga } from './saga';
-import { selectError, selectLoading, selectRepos, selectUsername } from './selectors';
+import {
+  selectError,
+  selectLoading,
+  selectRepos,
+  selectUsername,
+} from './selectors';
 import { LoadingIndicator } from 'app/components/LoadingIndicator';
 import { RepoErrorType } from './types';
 

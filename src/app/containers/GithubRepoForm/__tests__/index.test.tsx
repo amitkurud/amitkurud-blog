@@ -9,8 +9,7 @@ import { configureAppStore } from 'store/configureStore';
 import { actions, initialState } from '../slice';
 import { RepoErrorType } from '../types';
 
-function* mockGithubRepoFormSaga() {
-}
+function* mockGithubRepoFormSaga() {}
 
 jest.mock('../saga', () => ({
   githubRepoFormSaga: mockGithubRepoFormSaga,
@@ -41,14 +40,14 @@ describe('<GithubRepoForm />', () => {
     component.unmount();
   });
 
-  it('should fetch repos on mount if username isn\'t empty', () => {
+  it("should fetch repos on mount if username isn't empty", () => {
     component.unmount();
     component = renderGithubRepoForm(store);
     expect(initialState.username.length).toBeGreaterThan(0);
     expect(store.getState().githubRepoForm.loading).toBe(true);
   });
 
-  it('shouldn\'t fetch repos on mount if username is empty', () => {
+  it("shouldn't fetch repos on mount if username is empty", () => {
     store.dispatch(actions.changeUsername(''));
     store.dispatch(actions.reposLoaded([]));
     component.unmount();
