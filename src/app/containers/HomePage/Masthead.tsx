@@ -3,7 +3,6 @@ import styled from 'styled-components/macro';
 import { Logos } from './Logos';
 import { Title } from 'app/containers/HomePage/components/Title';
 import { Lead } from 'app/containers/HomePage/components/Lead';
-import { A } from 'app/components/A';
 
 export function Masthead() {
   return (
@@ -11,33 +10,33 @@ export function Masthead() {
       <Logos />
       <Title>Amit Kurud</Title>
       <Lead>
-        Now you can use the{' '}
-        <A
-          href="https://www.reactboilerplate.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React Boilerplate
-        </A>{' '}
-        as a{' '}
-        <A
-          href="https://github.com/facebook/create-react-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Create React App
-        </A>{' '}
-        template.
+        Hi there, my name is Amit Kurud. I am a Software Engineer located in
+        <strong> Hyderabad, India</strong>. I work as a{' '}
+        <strong> Fullstack Software Engineer</strong> . I program in a variety
+        of languages but most of the time I use
+        <strong> Java</strong> to accomplish my task. I also work with{' '}
+        <strong>
+          {' '}
+          Typescript, Kotlin, Nodejs, ReactJs, Nestjs Framework, Spring Boot
+          Framework
+        </strong>
+        . My focus is on writing clean and maintainable software. I'm very eager
+        to learn, in my free time I read about various topics ranging from
+        writing clean code to specific frameworks/programming languages. I also
+        contribute to the opensource community in our organisation and on
+        Github, run a linux desktop at home and love to chat about tech in
+        general.
       </Lead>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.main`
-  height: 60vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 320px;
+  margin-bottom: 2rem;
 `;

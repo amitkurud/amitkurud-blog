@@ -17,6 +17,7 @@ const Wrapper = styled.div`
   .logo {
     width: 8.5rem;
     height: 8.5rem;
+    margin-top: 4rem;
   }
 
   .sign {
