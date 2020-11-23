@@ -17,6 +17,7 @@ exports[`<Logos /> should render and match the snapshot 1`] = `
 .c0 .logo {
   width: 8.5rem;
   height: 8.5rem;
+  margin-top: 4rem;
 }
 
 .c0 .sign {
