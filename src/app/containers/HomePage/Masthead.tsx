@@ -17,7 +17,7 @@ export function Masthead() {
         <strong> Java</strong> to accomplish my task. I also work with{' '}
         <strong>
           {' '}
-          Typescript, Kotlin, Nodejs, ReactJs, Nestjs Framework, Spring Boot
+          Typescript, Kotlin, Nodejs, ReactJs, Nestjs Framework, Spring-Boot
           Framework
         </strong>
         . My focus is on writing clean and maintainable software. I'm very eager

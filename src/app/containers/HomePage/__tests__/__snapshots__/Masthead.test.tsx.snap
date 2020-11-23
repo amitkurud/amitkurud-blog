@@ -24,7 +24,7 @@ exports[`<Masthead /> should render and match the snapshot 1`] = `
      
     <strong>
        
-      Typescript, Kotlin, Nodejs, ReactJs, Nestjs Framework, Spring Boot Framework
+      Typescript, Kotlin, Nodejs, ReactJs, Nestjs Framework, Spring-Boot Framework
     </strong>
     . My focus is on writing clean and maintainable software. I'm very eager to learn, in my free time I read about various topics ranging from writing clean code to specific frameworks/programming languages. I also contribute to the opensource community in our organisation and on Github, run a linux desktop at home and love to chat about tech in general.
   </Lead>

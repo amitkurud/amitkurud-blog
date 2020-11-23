@@ -5,7 +5,7 @@ import tw from 'twin.macro';
 export function Logo() {
   return (
     <Wrapper>
-      <Title>Amit Kurud's Blog</Title>
+      <Title>Amit Kurud</Title>
     </Wrapper>
   );
 }
