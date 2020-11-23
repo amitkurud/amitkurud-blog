@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
+import tw from 'twin.macro';
 
 export function Logos() {
   return (
@@ -13,7 +14,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   color: ${p => p.theme.border};
-
+  ${tw`animate-bounce`}
   .logo {
     width: 8.5rem;
     height: 8.5rem;
