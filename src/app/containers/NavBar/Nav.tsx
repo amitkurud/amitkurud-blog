@@ -1,11 +1,22 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { ReactComponent as GithubIcon } from './assets/github-icon.svg';
+import { ReactComponent as BlogIcon } from './assets/blog-icon.svg';
+import { ReactComponent as HomeIcon } from './assets/home-button.svg';
 import { ThemeSwitch } from '../ThemeSwitch';
+import tw from 'twin.macro';
 
 export function Nav() {
   return (
     <Wrapper>
+      <Item href="/" title="Blog" rel="noopener noreferrer">
+        <HomeIcon />
+        <TextP>Home</TextP>
+      </Item>
+      <Item href="blog" title="Blog" rel="noopener noreferrer">
+        <BlogIcon />
+        Blog
+      </Item>
       <Item
         href="https://github.com/amitkurud"
         target="_blank"
@@ -25,6 +36,10 @@ export function Nav() {
 const Wrapper = styled.nav`
   display: flex;
   margin-right: -1rem;
+`;
+
+const TextP = styled.p`
+  ${tw`font-sans`}
 `;
 
 const Item = styled.a`
