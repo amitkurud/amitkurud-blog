@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components/macro';
 import { Logos } from './Logos';
-import { Title } from 'app/containers/HomePage/components/Title';
 import { Lead } from 'app/containers/HomePage/components/Lead';
 import tw from 'twin.macro';
 
