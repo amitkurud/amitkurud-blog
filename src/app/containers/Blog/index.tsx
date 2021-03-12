@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 import React from 'react';
 import { NavBar } from '../NavBar';
-import { Features } from '../HomePage/Features';
 import { PageWrapper } from '../../components/PageWrapper';
+import { BlogList } from './BlogList';
 
 export function Blog() {
   return (
@@ -13,7 +13,7 @@ export function Blog() {
       </Helmet>
       <NavBar />
       <PageWrapper>
-        <Features />
+        <BlogList />
       </PageWrapper>
     </>
   );
