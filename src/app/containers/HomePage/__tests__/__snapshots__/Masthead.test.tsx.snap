@@ -3,11 +3,19 @@
 exports[`<Masthead /> should render and match the snapshot 1`] = `
 <Masthead__Wrapper>
   <Logos />
-  <Title>
-    Amit Kurud
-  </Title>
   <Lead>
-    Hi there, my name is Amit Kurud. I am a Software Engineer located in
+    Hello there
+    <span
+      aria-label="hand-wave"
+      role="img"
+    >
+      👋
+    </span>
+    , my name is 
+    <strong>
+       Amit Kurud
+    </strong>
+    . I am a Software Engineer located in
     <strong>
        Hyderabad, India
     </strong>
@@ -16,7 +24,7 @@ exports[`<Masthead /> should render and match the snapshot 1`] = `
     <strong>
        Fullstack Software Engineer
     </strong>
-     . I program in a variety of languages but most of the time I use
+    . I program in a variety of languages but most of the time I use
     <strong>
        Java
     </strong>
@@ -26,7 +34,20 @@ exports[`<Masthead /> should render and match the snapshot 1`] = `
        
       Typescript, Kotlin, NodeJS, ReactJS, NestJS Framework, Spring-Boot Framework
     </strong>
-    . My focus is on writing clean and maintainable software. I'm very eager to learn, in my free time I read about various topics ranging from writing clean code to specific frameworks/programming languages. I also contribute to the opensource community in our organisation and on Github, run a linux desktop at home and love to chat about tech in general.
+    . My focus is on writing clean and maintainable software. I'm very eager to learn, in my free time I read about various topics ranging from writing clean code to specific frameworks/programming languages. I also contribute to the opensource community in our organization and on Github, run a Linux desktop at home, and love to chat about tech in general.
+    <br />
+    <Masthead__P
+      title="Github Page"
+    >
+      <strong>
+        <a
+          href="blog"
+          rel="noopener noreferrer"
+        >
+          Please Feel Free to Read My Blog
+        </a>
+      </strong>
+    </Masthead__P>
   </Lead>
 </Masthead__Wrapper>
 `;
