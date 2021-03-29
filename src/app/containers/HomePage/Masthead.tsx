@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components/macro';
 import { Logos } from './Logos';
 import { Lead } from 'app/containers/HomePage/components/Lead';
