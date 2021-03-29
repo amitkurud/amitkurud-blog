@@ -5,7 +5,6 @@ import { Lead } from 'app/containers/HomePage/components/Lead';
 import tw from 'twin.macro';
 
 export function Masthead() {
-  const [counter, setCounter] = useState(0);
   return (
     <Wrapper>
       <Logos />
