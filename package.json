@@ -29,7 +29,7 @@
     "lint-staged": "10.0.8",
     "node-plop": "0.25.0",
     "plop": "2.6.0",
-    "postcss": "^7",
+    "postcss": "^8",
     "postcss-flexbugs-fixes": "^4",
     "postcss-preset-env": "6.7.0",
     "prettier": "2.0.1",
